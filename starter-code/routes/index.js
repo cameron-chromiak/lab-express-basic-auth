@@ -6,4 +6,7 @@ router.get('/', (req, res, next) => {
   res.render('index');
 });
 
+//Users route
+const users = require('/users');
+
 module.exports = router;
